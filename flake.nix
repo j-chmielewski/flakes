@@ -7,6 +7,10 @@
         path = ./python-pipenv;
         description = "Python with Pipenv";
       };
+      rust = {
+        path = ./rust;
+        description = "Rust";
+      };
     };
   };
 }
