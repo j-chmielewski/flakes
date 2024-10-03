@@ -15,7 +15,7 @@
           cargo
           rustc
           rust-analyzer
-          cargo-clippy
+          clippy
           sqlx-cli
 
           pkg-config
