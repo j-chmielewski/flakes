@@ -12,13 +12,15 @@
     in {
       devShells.default = pkgs.mkShell {
         packages = with pkgs; [
-          pkg-config
-          openssl
-          protobuf
-          sqlx-cli
           cargo
           rustc
           rust-analyzer
+          cargo-clippy
+          sqlx-cli
+
+          pkg-config
+          openssl
+          protobuf
         ];
       };
     });
