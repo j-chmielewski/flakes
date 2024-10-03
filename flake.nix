@@ -3,9 +3,9 @@
 
   outputs = { self }: {
     templates = {
-      python = {
-        path = ./python;
-        description = "Python with Poetry";
+      python-pipenv = {
+        path = ./python-pipenv;
+        description = "Python with Pipenv";
       };
     };
   };
