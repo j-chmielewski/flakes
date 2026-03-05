@@ -29,10 +29,10 @@
               owner = "Curbob";
               repo = "LobsterBoard";
               rev = "main";
-              hash = pkgs.lib.fakeHash;
+              hash = "sha256-/6X/nz7+Mcumwikiw52w3DXF9vSRQG2s4AdOSOP6oxc=";
             };
 
-            npmDepsHash = pkgs.lib.fakeHash;
+            npmDepsHash = "sha256-PNNGpocb7nmAmfFpb6df/kfBcRtvAEN6daDYvuteI7Q=";
           };
         });
     };
